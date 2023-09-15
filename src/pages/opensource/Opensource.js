@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
 import Organizations from "../../containers/organizations/Organizations";
 import PullRequests from "../../containers/pullRequests/PullRequests";
@@ -17,7 +16,6 @@ class Opensource extends Component {
         <OpensourceCharts theme={this.props.theme} />
         <PullRequests theme={this.props.theme} />
         <Issues theme={this.props.theme} />
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );
