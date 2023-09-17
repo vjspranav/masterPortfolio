@@ -31,15 +31,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/vjspranav",
@@ -321,56 +312,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    // {
-    //   siteName: "LeetCode",
-    //   iconifyClassname: "simple-icons:leetcode",
-    //   style: {
-    //     color: "#F79F1B",
-    //   },
-    //   profileLink: "https://leetcode.com/layman_brother/",
-    // },
-    // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/layman_brother",
-    // },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "simple-icons:codechef",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "simple-icons:hackerearth",
-    //   style: {
-    //     color: "#323754",
-    //   },
-    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -405,40 +347,86 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-        // {
-        //   title: "Machine Learning Intern",
-        //   company: "TikTok Inc.",
-        //   company_url: "https://www.tiktok.com/en/",
-        //   logo_path: "tiktok_logo.png",
-        //   duration: "May 2022 - Aug 2022",
-        //   location: "San Francisco, USA",
-        //   description:
-        //     "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-        //   color: "#000000",
-        // },
-        // {
-        //   title: "Data Science Research Intern",
-        //   company: "Delhivery Pvt. Ltd.",
-        //   company_url: "https://www.delhivery.com/",
-        //   logo_path: "delhivery_logo.png",
-        //   duration: "May 2019 - Sept 2019",
-        //   location: "Gurgaon, Haryana",
-        //   description:
-        //     "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-        //   color: "#ee3c26",
-        // },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
+        {
+          title: "Backend Developer Intern",
+          company: "Thinkskill",
+          company_url: "https://thinkskill.co.in/",
+          logo_path: "thinkskill_logo.jpeg",
+          duration: "Feb 2023 - May 2023",
+          location: "Work From Home",
+          description:
+            "Developing a backend system for a restaurant management system that allows restaurants to manage their employees, their shifts, their payrolls, and their tips. I developed the complete backend system using NodeJS, Express, and MongoDB. I also developed a REST API for the system.",
+        },
+        {
+          title: "Software Engineering Intern",
+          company: "Virtual Labs",
+          company_url: "https://vlabs.ac.in/",
+          logo_path: "vlabs_logo.jpeg",
+          duration: "May 2021 - July 2021",
+          location: "Work From Home",
+          description:
+            "This is a initiaitive by the Ministry of Education, Government of India and multiple institutions. I worked on modernizing webpages from deprecated technologies (Flash, Java). I implemented extensible JSON validation precompilation for webpages. I also developed a vanilla JavaScript web component for GitHub-integrated bug reporting hosted on AWS.",
+          color: "#000000",
+        },
+      ],
+    },
+    {
+      title: "Teaching and Research Roles",
+      experiences: [
+        {
+          title: "Teaching Assistant, OSN",
+          company: "IIIT Hyderabad",
+          company_url: "https://iiit.ac.in/",
+          logo_path: "iiith_logo.png",
+          duration: "Monsoon 2023",
+          location: "Hyderabad, Telangana",
+          description:
+            "Teaching assistant for Operating Systems, a course on operating systems and their design. I was responsible for conducting and scheduling tutorials, grading assignments, and conducting exams.",
+          color: "#4285F4",
+        },
+        {
+          title: "Research Assistant",
+          company: "Smart City Research Center",
+          company_url: "https://iiit.ac.in/",
+          logo_path: "iiith_logo.png",
+          duration: "Monsoon 2023",
+          location: "Hyderabad, Telangana",
+          description:
+            "Researching on interoperability in IoT adhering to oneM2M standards. Developing a scalable and distributed architecture for interoperability for IoT in smart cities. Developing a microservices based architecture for the same.",
+          color: "#4285F4",
+        },
+        {
+          title: "Teaching Assistant, SE",
+          company: "IIIT Hyderabad",
+          company_url: "https://iiit.ac.in/",
+          logo_path: "iiith_logo.png",
+          duration: "Spring 2023",
+          location: "Hyderabad, Telangana",
+          description:
+            "Teaching assistant for Software Engineering, a course on software development and engineering. I attended lectures, conducted and scheduled tutorials, graded assignments, and conducted exams. Planned the course porject along with the professor and guided students with any doubts they had.",
+        },
+        {
+          title: "Teaching Assistant, DS",
+          company: "IIIT Hyderabad",
+          company_url: "https://iiit.ac.in/",
+          logo_path: "iiith_logo.png",
+          duration: "Monsoon 2022",
+          location: "Hyderabad, Telangana",
+          description:
+            "Teaching assistant for Discrete Structures, a course on discrete mathematics and its applications. I was responsible for conducting and scheduling tutorials, grading assignments, and conducting exams.",
+          color: "#4285F4",
+        },
+        {
+          title: "Research Assistant",
+          company: "Vlabs",
+          company_url: "https://vlabs.ac.in/",
+          logo_path: "vlabs_logo.jpeg",
+          duration: "Spring 2022",
+          location: "Hyderabad, Telangana",
+          description:
+            "Guided students in developing virtual labs for various courses. Did code reviews and helped students with any doubts they had. Researched on potential technologies to use for the labs and future development.",
+          color: "#000000",
+        },
       ],
     },
     {
@@ -477,18 +465,29 @@ const experience = {
         //     "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
         //   color: "#000000",
         // },
-        // {
-        //   title: "Developer Students Club Member",
-        //   company: "DSC IIITDM Kurnool",
-        //   company_url:
-        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-        //   logo_path: "dsc_logo.png",
-        //   duration: "Jan 2018 - May 2020",
-        //   location: "Kurnool, Andhra Pradesh",
-        //   description:
-        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-        //   color: "#0C9D58",
-        // },
+        {
+          title: "Cloud Lead, Developer Students Club",
+          company: "DSC IIIT Hyderabad",
+          company_url:
+            "https://www.linkedin.com/company/google-developer-student-clubs-iiit-hyderabad/?originalSubdomain=in",
+          logo_path: "gdsc.png",
+          duration: "Sep 2021 - Sep 2022",
+          location: "Hyderabad, Telangana",
+          description:
+            "We have well established developer club in college which is directly associated with Google Developers. I lead the cloud team of the club and we conduct workshops and events on cloud technologies and services.",
+          color: "#0C9D58",
+        },
+        {
+          title: "Facilitator, 30 Days of Google Cloud",
+          company: "DSC IIIT Hyderabad",
+          company_url: "https://www.youtube.com/watch?v=jnnBtUzr9fY",
+          logo_path: "gdsc.png",
+          duration: "Sep 2021",
+          location: "Hyderabad, Telangana",
+          description:
+            "I was a facilitator for the 30 Days of Google Cloud program. I conducted a workshop on Google Cloud Platform and its services and guided students through the program. I was in direct contact with the Google Cloud team, attending meetings and workshops with them.",
+          color: "#0C9D58",
+        },
         // {
         //   title: "Developer Program Member",
         //   company: "Github",
