@@ -4,8 +4,10 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
+import ResearchImg from "./ResearchImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
+import StagImg from "./StagImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
@@ -15,6 +17,9 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "ResearchImg")
+    return <ResearchImg theme={props.theme} />;
+  else if (props.fileName === "StagImg") return <StagImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 

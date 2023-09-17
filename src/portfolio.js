@@ -81,6 +81,72 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "StagOS",
+      fileName: "StagImg",
+      skills: [
+        "⚡ Founder and lead developer of StagOS",
+        "⚡ A custom Android-based OS made from scratch",
+        "⚡ With over 100,000+ downloads",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "material-symbols:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        // Java
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
+          style: {
+            color: "#007396",
+          },
+        },
+        // Jenkins
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "devicon:jenkins",
+          style: {
+            color: "#D24939",
+          },
+        },
+        // Bash
+        {
+          skillName: "Bash",
+          fontAwesomeClassname: "devicon:bash",
+          style: {
+            color: "#4EAA25",
+          },
+        },
+        // Python
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        // Linux
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "devicon:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+        // git
+        {
+          skillName: "git",
+          fontAwesomeClassname: "logos-git-icon",
+          style: {
+            color: "#F05032",
+          },
+        },
+      ],
+    },
+    {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
@@ -120,7 +186,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodejs",
+          fontAwesomeClassname: "fa6-brands:node",
           style: {
             color: "#339933",
           },
@@ -147,8 +213,8 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience with serverless architecture",
       ],
       softwareSkills: [
         {
@@ -163,6 +229,15 @@ const skills = {
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
+          },
+        },
+        // lambda
+        {
+          skillName: "Lambda",
+          fontAwesomeClassname: "logos:aws-lambda",
+          style: {
+            color: "#FF9900",
+            backgroundColor: "#000000",
           },
         },
         {
@@ -188,90 +263,59 @@ const skills = {
         },
       ],
     },
-    // {
-    //   title: "Data Science & AI",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Tensorflow",
-    //       fontAwesomeClassname: "logos-tensorflow",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Keras",
-    //       fontAwesomeClassname: "simple-icons:keras",
-    //       style: {
-    //         backgroundColor: "white",
-    //         color: "#D00000",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PyTorch",
-    //       fontAwesomeClassname: "logos-pytorch",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Python",
-    //       fontAwesomeClassname: "ion-logo-python",
-    //       style: {
-    //         backgroundColor: "transparent",
-    //         color: "#3776AB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Deeplearning",
-    //       imageSrc: "deeplearning_ai_logo.png",
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
+    {
+      title: "Research and Development",
+      fileName: "ResearchImg",
+      skills: [
+        "⚡ Researching Interoperability in IOT following oneM2M standards",
+        "⚡ Worked on compilers and OS",
+        "⚡ Functional Programming",
+      ],
+      softwareSkills: [
+        {
+          skillName: "C",
+          fontAwesomeClassname: "logos:c",
+          style: {
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "Haskell",
+          fontAwesomeClassname: "simple-icons:haskell",
+          style: {
+            color: "#5D4F85",
+          },
+        },
+        {
+          skillName: "Racket",
+          fontAwesomeClassname: "simple-icons:racket",
+          style: {
+            color: "#A6F",
+          },
+        },
+        {
+          skillName: "Elm",
+          fontAwesomeClassname: "simple-icons:elm",
+          style: {
+            color: "#60B5CC",
+          },
+        },
+        {
+          skillName: "LaTeX",
+          fontAwesomeClassname: "simple-icons:latex",
+          style: {
+            color: "#008080",
+          },
+        },
+      ],
+    },
   ],
 };
 
