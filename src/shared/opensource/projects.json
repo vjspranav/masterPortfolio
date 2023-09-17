@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyMTg1MjA5NTk=",
-      "name": "sepwriter",
-      "createdAt": "2019-10-30T12:20:01Z",
-      "url": "https://github.com/vjspranav/sepwriter",
-      "description": null,
+      "id": "NAjkwefnfiwsfpdfv=",
+      "name": "StagOS",
+      "createdAt": "2018-10-10T18:36:42Z",
+      "url": "https://github.com/StagOS",
+      "description": "StagOS is a custom ROM based on AOSP that aims to keep an elegant design and fluid experience. We ship both vanilla Android and google (gapps) variants. Our priority is to provide a stable ROM with features and security patches from the latest AOSP release.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Android",
+          "iconifyClass": "devicon:android"
         },
         {
           "name": "Java",
@@ -19,29 +19,33 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkxNzk4NTk5ODE=",
-      "name": "manifest",
-      "createdAt": "2019-04-06T16:43:55Z",
-      "url": "https://github.com/StagOS/manifest",
-      "description": null,
+      "id": "MDEwOlJlcG9zaXRvcnkyMTg1MjA5NTk=",
+      "name": "StagBIN",
+      "createdAt": "2019-10-30T12:20:01Z",
+      "url": "https://stagb.in",
+      "description": "A pastebin you didn't know you needed. Supports features like syntax highlighting, password protection, and more.",
       "isFork": false,
-      "languages": []
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "DynamoDB",
+          "iconifyClass": "logos:aws-dynamodb"
+        }
+      ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyMzY5ODY0MDk=",
-      "name": "SoliditySmartContract",
-      "createdAt": "2020-01-29T13:18:46Z",
-      "url": "https://github.com/04-aditya/SoliditySmartContract",
-      "description": "Our attempt to complete a smart contract using solidity for the first time in Remix Ethereum platform.",
-      "isFork": false,
-      "languages": []
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNzM2NTc2OTI=",
-      "name": "Jenkins_TelegramBot",
-      "createdAt": "2020-06-20T07:10:49Z",
-      "url": "https://github.com/vjspranav/Jenkins_TelegramBot",
-      "description": null,
+      "id": "MDEwOlJlcG9zaXRvcnkyNjUzMjYyNTU=",
+      "name": "Flash Games",
+      "createdAt": "2023-07-27T13:14:24Z",
+      "url": "https://games.stag-os.org",
+      "description": "A collection of flash games we used to play as kids",
       "isFork": false,
       "languages": [
         {
@@ -51,11 +55,61 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNjUzMjYyNTU=",
-      "name": "Wallpapers",
-      "createdAt": "2020-05-19T18:11:58Z",
-      "url": "https://github.com/vjspranav/Wallpapers",
-      "description": null,
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM2NTc2OTI=",
+      "name": "Server Management Bot",
+      "createdAt": "2021-05-11T19:53:25Z",
+      "url": "https://github.com/vjspranav/LinuxManagementBot_TGt",
+      "description": "A telegram bot to manage your linux server and also handle Jenkins CI/CD",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jenkins",
+          "iconifyClass": "logos:jenkins"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTI5NTQxNzc=",
+      "name": "C Shell",
+      "createdAt": "2020-09-04T21:56:47Z",
+      "url": "https://github.com/vjspranav/C_Shell",
+      "description": "A shell written completely in C with support for pipes, redirection, background processes, and more",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C",
+          "iconifyClass": "logos:c"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvsvsdvyOTI5NTQxNzc=",
+      "name": "Watch Party",
+      "createdAt": "2022-04-28T14:58:02Z",
+      "url": "https://github.com/AYUSHMAN-PANDA/WatchParty",
+      "description": "A web app to watch movies with friends on youtube",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Socket.io",
+          "iconifyClass": "devicon:socketio"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvsvsdvyOTI5NTQxNzc=",
+      "name": "Compiler Bot",
+      "createdAt": "2020-03-27T22:03:21Z",
+      "url": "https://github.com/vjspranav/Python_Compiler-Bot",
+      "description": "A telegram bot to compile and run C/C++/python code. It also resolves sepolicy denials from logcat",
       "isFork": false,
       "languages": [
         {
@@ -66,12 +120,39 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyOTI5NTQxNzc=",
-      "name": "C_Shell",
-      "createdAt": "2020-09-04T21:56:47Z",
-      "url": "https://github.com/vjspranav/C_Shell",
-      "description": null,
+      "name": "OnePlus 9 Device Tree",
+      "createdAt": "2021-06-04T17:10:50Z",
+      "url": "https://github.com/StagOS-Devices/device_oneplus_lemonadep",
+      "description": "Development of Device tree for OnePlus 9 (lemonadep) for StagOS, based on AOSP",
       "isFork": false,
-      "languages": []
+      "languages": [
+        {
+          "name": "C",
+          "iconifyClass": "logos:c"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyOTI5NTQxNzc=",
+      "name": "QR Code Generator",
+      "createdAt": "2023-04-16T18:24:46Z",
+      "url": "qrgen.live",
+      "description": "A QR code generator written in python and compiled to WASM to run in the browser",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "WASM",
+          "iconifyClass": "devicon:wasm"
+        }
+      ]
     }
   ]
 }
