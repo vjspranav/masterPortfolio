@@ -6,11 +6,6 @@
       "__typename": "Organization"
     },
     {
-      "login": "StagOS-Devices",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48066043?v=4",
-      "__typename": "Organization"
-    },
-    {
       "login": "virtual-labs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8529324?v=4",
       "__typename": "Organization"
@@ -26,18 +21,8 @@
       "__typename": "Organization"
     },
     {
-      "login": "StagOS-Beta",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/92679333?v=4",
-      "__typename": "Organization"
-    },
-    {
       "login": "algodynamics-iiith",
       "avatarUrl": "https://avatars.githubusercontent.com/u/85790741?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "DFS-Clone",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/122777471?v=4",
       "__typename": "Organization"
     }
   ]

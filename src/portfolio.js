@@ -341,7 +341,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
-  description: "WIP - Details will be up soon",
+  description: "All my internships, teaching and research roles.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -507,7 +507,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "WIP - Details will be up soon",
+  description: "Everything I've worked on.",
   avatar_image_path: "projects_image.svg",
 };
 
