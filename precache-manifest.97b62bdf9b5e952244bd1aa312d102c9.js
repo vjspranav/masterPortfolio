@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3e7286f16a50df9f885e5f75d2f9b62",
+    "revision": "da7b7eb446913196bf20a9c44da0aabc",
     "url": "./index.html"
   },
   {
-    "revision": "be3b1b913c614673328c",
+    "revision": "13cd3986bdacd341688e",
     "url": "./static/css/main.89bc3237.chunk.css"
   },
   {
-    "revision": "147b2e4e1b446fa53878",
-    "url": "./static/js/2.1b43dc49.chunk.js"
+    "revision": "beb9ce61b7e0d4b67821",
+    "url": "./static/js/2.73cf4e09.chunk.js"
   },
   {
-    "revision": "be3b1b913c614673328c",
-    "url": "./static/js/main.1ebae03a.chunk.js"
+    "revision": "13cd3986bdacd341688e",
+    "url": "./static/js/main.d30f9639.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
@@ -180,6 +180,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/gcp_logo.0ee7e8c9.png"
   },
   {
+    "revision": "a97dce157cb85dda5588102a98c47f44",
+    "url": "./static/media/gdsc.a97dce15.png"
+  },
+  {
+    "revision": "9b119a9fcc0bc33ec91d4f7ce6d05316",
+    "url": "./static/media/gdsc_iiith.9b119a9f.png"
+  },
+  {
+    "revision": "ead3b2741a6fa04f32ae5cbb83881702",
+    "url": "./static/media/gdsc_iiith.ead3b274.jpeg"
+  },
+  {
     "revision": "6eeb2e810d0fd9f3ca2dcd72de228e68",
     "url": "./static/media/github_logo.6eeb2e81.png"
   },
@@ -266,5 +278,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "./static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "0b83d9b2c322182c437e582d7883996d",
+    "url": "./static/media/vlabs_logo.0b83d9b2.jpeg"
   }
 ]);

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.89bc3237.chunk.css",
-    "main.js": "./static/js/main.1ebae03a.chunk.js",
-    "main.js.map": "./static/js/main.1ebae03a.chunk.js.map",
+    "main.js": "./static/js/main.d30f9639.chunk.js",
+    "main.js.map": "./static/js/main.d30f9639.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
-    "static/js/2.1b43dc49.chunk.js": "./static/js/2.1b43dc49.chunk.js",
-    "static/js/2.1b43dc49.chunk.js.map": "./static/js/2.1b43dc49.chunk.js.map",
+    "static/js/2.73cf4e09.chunk.js": "./static/js/2.73cf4e09.chunk.js",
+    "static/js/2.73cf4e09.chunk.js.map": "./static/js/2.73cf4e09.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.19288b701e342183e2091354f3ae291e.js": "./precache-manifest.19288b701e342183e2091354f3ae291e.js",
+    "precache-manifest.97b62bdf9b5e952244bd1aa312d102c9.js": "./precache-manifest.97b62bdf9b5e952244bd1aa312d102c9.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.89bc3237.chunk.css.map": "./static/css/main.89bc3237.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -30,6 +30,9 @@
     "static/media/feelingProud.svg": "./static/media/feelingProud.2936ce95.svg",
     "static/media/fullstack.svg": "./static/media/fullstack.fce60807.svg",
     "static/media/gcp_logo.png": "./static/media/gcp_logo.0ee7e8c9.png",
+    "static/media/gdsc.png": "./static/media/gdsc.a97dce15.png",
+    "static/media/gdsc_iiith.png": "./static/media/gdsc_iiith.9b119a9f.png",
+    "static/media/gdsc_iiith.jpeg": "./static/media/gdsc_iiith.ead3b274.jpeg",
     "static/media/github_logo.png": "./static/media/github_logo.6eeb2e81.png",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.a6addc3f.svg",
@@ -51,12 +54,13 @@
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.6ac91b16.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "./static/media/tiktok_logo.0993e324.png",
-    "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg"
+    "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg",
+    "static/media/vlabs_logo.jpeg": "./static/media/vlabs_logo.0b83d9b2.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
-    "static/js/2.1b43dc49.chunk.js",
+    "static/js/2.73cf4e09.chunk.js",
     "static/css/main.89bc3237.chunk.css",
-    "static/js/main.1ebae03a.chunk.js"
+    "static/js/main.d30f9639.chunk.js"
   ]
 }
