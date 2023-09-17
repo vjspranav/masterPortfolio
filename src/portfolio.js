@@ -139,20 +139,6 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
@@ -180,20 +166,6 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
@@ -212,13 +184,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
           },
         },
       ],
