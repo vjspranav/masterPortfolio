@@ -11,7 +11,7 @@ const seo = {
   description:
     "Where I love to showcase my work and passion for Computer Science.",
   og: {
-    title: "VJS Pranavasri Portfolio",
+    title: "Pranav's Portfolio",
     type: "website",
     url: "http://vjspranav.dev/",
   },
