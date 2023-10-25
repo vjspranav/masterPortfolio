@@ -41,6 +41,42 @@
       ]
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkyMjIwNjQwNjE=",
+      "name": "Cinestream",
+      "createdAt": "2022-10-20T18:24:46Z",
+      "url": "https://cinestream.vjspranav.dev",
+      "description": "A microservice based architecture that allows pay per view streaming of movies from multiple OTT platforms",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMjIwNjQwNjE=",
+      "name": "Rick Roll Wordle",
+      "createdAt": "2023-10-18T18:24:46Z",
+      "url": "https://wordle.vjspranav.dev",
+      "description": "A octordle inspired wordle game that rick rolls you if you get all the words right",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkyNjUzMjYyNTU=",
       "name": "Flash Games",
       "createdAt": "2023-07-27T13:14:24Z",
@@ -115,6 +151,20 @@
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMjIwNjQwNjE=",
+      "name": "Whatsapp Export Renderer",
+      "createdAt": "2023-08-11T19:53:25Z",
+      "url": "https://github.com/vjspranav/WhatsAppExportRenderer",
+      "description": "A script to render the exported whatsapp chat in a beautiful html page similar to the whatsapp web UI",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
