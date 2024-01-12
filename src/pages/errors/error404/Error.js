@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
 import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Error.css";
@@ -9,6 +8,12 @@ import { Link } from "react-router-dom";
 export default class Error extends Component {
   render() {
     const theme = this.props.theme;
+    // check if page is resume.pdf
+    if (window.location.pathname === "/resume.pdf") {
+      // Redirect to url/Resume.pdf
+      window.location.href = "/Resume.pdf";
+    }
+
     return (
       <div className="error-main">
         <Header theme={this.props.theme} />
@@ -31,7 +36,6 @@ export default class Error extends Component {
             </Link>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
       </div>
     );
