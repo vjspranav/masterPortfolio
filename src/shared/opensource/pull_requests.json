@@ -2176,7 +2176,7 @@
     {
       "id": "MDExOlB1bGxSZXF1ZXN0NDcxMzg0NDg0",
       "title": "Roomservice: Add Garlic",
-      "url": "https://github.com/BlissRoms-Devices/local_manifests/pull/9",
+      "url": "https://github.com/BlissRoms-Devices/typhoon/pull/9",
       "state": "MERGED",
       "mergedBy": {
         "avatarUrl": "https://avatars.githubusercontent.com/u/9795336?u=04391e87c8eb927f47feeff391fdfa426e3d73b2&v=4",
@@ -2189,8 +2189,8 @@
       "additions": 5,
       "deletions": 0,
       "baseRepository": {
-        "name": "local_manifests",
-        "url": "https://github.com/BlissRoms-Devices/local_manifests",
+        "name": "typhoon",
+        "url": "https://github.com/BlissRoms-Devices/typhoon",
         "owner": {
           "avatarUrl": "https://avatars.githubusercontent.com/u/15318225?v=4",
           "login": "BlissRoms-Devices",
