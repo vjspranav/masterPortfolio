@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
 import TopButton from "../../components/topButton/TopButton";
-import GHWorkflow from "../../containers/skills/GHWorkflow";
+import GHWorkflow from "../../containers/ghworkflow/GHWorkflow";
 
 class Home extends Component {
   render() {
