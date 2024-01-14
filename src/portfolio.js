@@ -44,10 +44,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Gmail",
-    link: "mailto:vpranavasri@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "Outlook",
+    link: "mailto:pranavasri@live.in",
+    fontAwesomeIcon: "fa-microsoft", // Reference https://fontawesome.com/icons/microsoft?style=brands
+    backgroundColor: "#0078D4", // Reference https://simpleicons.org/?q=outlook
   },
   {
     name: "Twitter",
@@ -325,8 +325,8 @@ const degrees = {
       duration: "2020 - 2024",
       descriptions: [
         "⚡ I have done courses on OS, Compilers, Distributed Systems, Software Engineering etc.",
-        "⚡ I am doing research in interoperability standards and systems for IoT in smart cities",
-        "⚡ I was selected for Deans Merit List which is given to top 15% of students in college per the year.",
+        "⚡ I am doing research in interoperability standards and systems for IoT in smart cities.",
+        "⚡ I was selected for Deans Merit List for two consecutive years.",
       ],
       website_link: "http://iiit.ac.in",
     },
