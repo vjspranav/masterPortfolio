@@ -35,7 +35,8 @@
     "react-spring": "^8.0.27",
     "styled-components": "^5.1.1",
     "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7"
+    "styletron-react": "^5.2.7",
+    "sweetalert2": "^11.10.5"
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",

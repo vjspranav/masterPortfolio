@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+
+import Swal from "sweetalert2";
+
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
@@ -46,6 +49,33 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                  onClick={() => {
+                    Swal.fire({
+                      title: "Ready to Unleash the Beast?",
+                      text:
+                        "Ready to dive deeper? Access the advanced section, exclusively for tech enthusiasts and coding ninjas!",
+                      icon: "question",
+                      confirmButtonText: "Bring it on!",
+                      cancelButtonColor: theme.secondaryText,
+                      cancelButtonText: "Maybe later",
+                      showCancelButton: true,
+                    }).then((goAdv) => {
+                      if (goAdv.value) {
+                        // redirect to /terminal
+                        window.location.href = "/terminal";
+                      }
+                    });
+                  }}
+                  to="#"
+                >
+                  Advanced
                 </NavLink>
               </li>
               <li>

@@ -65,6 +65,14 @@ export default class Main extends Component {
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
+          {/* redirect /terminal to terminal.vjspranav.dev */}
+          <Route
+            path="/terminal"
+            component={() => {
+              window.location.href = "https://terminal.vjspranav.dev";
+              return null;
+            }}
+          />
           <Route
             path="*"
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
