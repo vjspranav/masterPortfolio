@@ -28,9 +28,17 @@
 .subTitle {
   color: #868e96;
 }
-
 .react-chatbot-kit-chat-container {
-  width: 400px !important; /* or 400px, 500px, etc., depending on your preference */
+  width: 90% !important; /* By default, use 90% of the screen width */
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+/* When the screen width is 444px or more, use 400px width */
+@media screen and (min-width: 444px) {
+  .react-chatbot-kit-chat-container {
+    width: 400px !important;
+  }
 }
 
 /* Adjust the inner container if needed */
