@@ -35,9 +35,9 @@ const ActionProvider = ({
         { conversationContext }
       )
       .then((response) => {
-        console.log("conversationContext", conversationContext);
-        console.log("Response from the API", response.data);
-        console.log("Status code", response.data.statusCode);
+        // console.log("conversationContext", conversationContext);
+        // console.log("Response from the API", response.data);
+        // console.log("Status code", response.data.statusCode);
         if (response.data.statusCode !== 200) {
           if (retries > 0) {
             console.log(`Retrying... Attempts left: ${retries - 1}`);
@@ -93,7 +93,7 @@ const ActionProvider = ({
       }
 
       let tmpTxt = msg.message;
-      if (index === 1) {
+      if (role === "user") {
         tmpTxt +=
           " Please keep responses concise. 3 lines at max, unless detail required or explicitly mentioned. but keep them cheeky and fun.";
       }
