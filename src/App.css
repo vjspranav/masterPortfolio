@@ -29,6 +29,23 @@
   color: #868e96;
 }
 
+.react-chatbot-kit-chat-container {
+  width: 400px !important; /* or 400px, 500px, etc., depending on your preference */
+}
+
+/* Adjust the inner container if needed */
+.react-chatbot-kit-chat-inner-container {
+  width: auto;
+  max-width: 100%; /* This ensures it fills the parent container */
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0px !important;
+  /* set variable width */
+  width: auto !important;
+  max-width: 90% !important;
+}
+
 /* Animations */
 @keyframes fade_down {
   0% {
