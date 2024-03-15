@@ -4,7 +4,7 @@ import axios from "axios";
 const ActionProvider = ({
   createChatBotMessage,
   setState,
-  state,
+  // state,
   children,
 }) => {
   const errorMessage = "Sorry, there was an error. Please try again.";
@@ -82,31 +82,33 @@ const ActionProvider = ({
     let conversationContext = [];
     // Assuming 'state.messages' holds your message history
     // And each message in the history has a 'type' ('bot' or 'user') and 'text'
-    state.messages.forEach((msg, index) => {
-      // ignore the first message
-      if (index === 0) return;
-      const role = msg.type === "bot" ? "model" : "user";
-      // if message is error and role is model, do not push to conversationContext and remove the last message from conversationContext
-      if (msg.message === errorMessage && role === "model") {
-        conversationContext.pop();
-        return;
-      }
+    // state.messages.forEach((msg, index) => {
+    //   // ignore the first message
+    //   if (index === 0) return;
+    //   const role = msg.type === "bot" ? "model" : "user";
+    //   // if message is error and role is model, do not push to conversationContext and remove the last message from conversationContext
+    //   if (msg.message === errorMessage && role === "model") {
+    //     conversationContext.pop();
+    //     return;
+    //   }
 
-      let tmpTxt = msg.message;
-      if (role === "user") {
-        tmpTxt +=
-          " Please keep responses concise. 3 lines at max, unless detail required or explicitly mentioned. but keep them cheeky and fun.";
-      }
-      conversationContext.push({
-        role: role,
-        parts: [{ text: tmpTxt }],
-      });
-    });
+    //   let tmpTxt = msg.message;
+    //   conversationContext.push({
+    //     role: role,
+    //     parts: [{ text: tmpTxt }],
+    //   });
+    // });
 
     // Append the current user message to the context
     conversationContext.push({
       role: "user",
-      parts: [{ text: message }],
+      parts: [
+        {
+          text:
+            message +
+            " Please keep responses concise. 3 lines at max, unless detail required or explicitly mentioned. but keep them cheeky and fun.",
+        },
+      ],
     });
 
     // Show loading message
