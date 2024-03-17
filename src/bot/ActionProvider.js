@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import { Remarkable } from "remarkable";
+import DOMPurify from "dompurify";
 
 const ActionProvider = ({
   createChatBotMessage,
@@ -12,7 +14,7 @@ const ActionProvider = ({
   const toggleLoadingMessage = (isLoading) => {
     if (isLoading) {
       // Add a loading message
-      const loadingMessage = createChatBotMessage("Bot is typing...", {
+      const loadingMessage = createChatBotMessage("VJS is typing...", {
         widget: "loading",
       });
       setState((prevState) => ({
@@ -55,7 +57,11 @@ const ActionProvider = ({
         toggleLoadingMessage(false);
         const body = JSON.parse(response.data.body);
         const reply = body.candidates[0].content.parts[0].text;
-        const botMessage = createChatBotMessage(reply);
+        const md = new Remarkable();
+        const html = md.render(reply);
+        const sanitizedHtml = DOMPurify.sanitize(html); // Sanitize the HTML
+
+        const botMessage = createChatBotMessage(sanitizedHtml);
         setState((prevState) => ({
           ...prevState,
           messages: [...prevState.messages, botMessage],

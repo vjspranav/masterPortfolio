@@ -1,4 +1,6 @@
+import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
+import HtmlCustomMessage from "./HtmlCustomMessage";
 
 const config = {
   initialMessages: [
@@ -13,6 +15,12 @@ const config = {
     },
     chatButton: {
       backgroundColor: "#5ccc9d",
+    },
+  },
+  customComponents: {
+    botChatMessage: (props) => {
+      const { message } = props;
+      return <HtmlCustomMessage data={message} />;
     },
   },
 };
