@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 export default class WIP extends Component {
   render() {
     const theme = this.props.theme;
-    const secretString = "BlahUhyuiop";
 
     // get data from url query
     const queryString = window.location.search;
