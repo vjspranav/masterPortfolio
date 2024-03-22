@@ -35,7 +35,6 @@ export default class WIP extends Component {
             <h1>We are still under construction</h1>
             <p>The requested page is unavailable at the moment!</p>
             <p>{data ? data : "Bruh even I got no clue why"}</p>
-            <p>{"DEBUG: " + encrypted + urlParams.get("encrypted")}</p>
             <Link
               className="main-button"
               to="/home"
