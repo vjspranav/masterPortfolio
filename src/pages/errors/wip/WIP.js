@@ -12,17 +12,26 @@ export default class WIP extends Component {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     let data = urlParams.get("data");
-    const encrypted = urlParams.get("encrypted") || true;
+    const encrypted = urlParams.get("encrypted")
+      ? urlParams.get("encrypted") === "true"
+      : true;
 
-    console.log(encrypted);
     if (data) {
       if (encrypted) {
         // convert data from base64 to string
-        data = atob(data);
+        try {
+          data = atob(data);
+        } catch (e) {
+          console.error("Error decoding base64 data", e);
+          data = "Bruh even I got no clue why";
+        }
       } else {
-        // update url ending to random string
-        const randomString = Math.random().toString(36).substring(7);
-        window.history.pushState({}, document.title, `${randomString}`);
+        // update url ending to be base64
+        window.history.replaceState(
+          null,
+          null,
+          window.location.pathname + `?data=${btoa(data)}`
+        );
       }
     }
 
