@@ -10,6 +10,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
+import WIP from "../pages/errors/wip/WIP";
 
 export default class Main extends Component {
   render() {
@@ -65,6 +66,10 @@ export default class Main extends Component {
           <Route
             path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/wip"
+            render={(props) => <WIP {...props} theme={this.props.theme} />}
           />
           {/* redirect /terminal to terminal.vjspranav.dev */}
           <Route

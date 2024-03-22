@@ -529,6 +529,16 @@ const publications = {
       url:
         "https://www.techrxiv.org/articles/preprint/Scalable_and_Interoperable_Distributed_Architecture_for_IoT_in_Smart_Cities/24118458",
     },
+    {
+      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      name:
+        "Exploratory Study of oneM2M-based Interoperability Architectures for IoT: A Smart City Perspective",
+      createdAt: "NA",
+      description:
+        "A paper written to explore the various oneM2M-based Interoperability Architectures for IoT in smart cities.\nAccepted in SAIP track at ICSA 2024 (International Conference on Software Architecture)",
+      url:
+        "https://vjspranav.dev/wip?data=Paper still in preprint stage. Will be published soon.",
+    },
   ],
 };
 
