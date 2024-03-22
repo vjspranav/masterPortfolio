@@ -537,7 +537,7 @@ const publications = {
       description:
         "A paper written to explore the various oneM2M-based Interoperability Architectures for IoT in smart cities.\nAccepted in SAIP track at ICSA 2024 (International Conference on Software Architecture)",
       url:
-        "https://vjspranav.dev/wip?data=Paper still in preprint stage. Will be published soon.",
+        "/wip?data=UGFwZXIgc3RpbGwgaW4gcHJlcHJpbnQgc3RhZ2UuIFdpbGwgYmUgcHVibGlzaGVkIHNvb24u",
     },
   ],
 };

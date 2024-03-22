@@ -11,11 +11,19 @@ export default class WIP extends Component {
     // get data from url query
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const data = urlParams.get("data");
+    let data = urlParams.get("data");
+    const encrypted = urlParams.get("encrypted") || true;
+
+    console.log(encrypted);
     if (data) {
-      // update url ending to random string
-      const randomString = Math.random().toString(36).substring(7);
-      window.history.pushState({}, document.title, `${randomString}`);
+      if (encrypted) {
+        // convert data from base64 to string
+        data = atob(data);
+      } else {
+        // update url ending to random string
+        const randomString = Math.random().toString(36).substring(7);
+        window.history.pushState({}, document.title, `${randomString}`);
+      }
     }
 
     return (
@@ -27,6 +35,7 @@ export default class WIP extends Component {
             <h1>We are still under construction</h1>
             <p>The requested page is unavailable at the moment!</p>
             <p>{data ? data : "Bruh even I got no clue why"}</p>
+            <p>{"DEBUG: " + encrypted + urlParams.get("encrypted")}</p>
             <Link
               className="main-button"
               to="/home"
