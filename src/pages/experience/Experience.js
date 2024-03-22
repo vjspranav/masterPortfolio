@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import TopButton from "../../components/topButton/TopButton";
+// import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
@@ -183,7 +183,7 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
-        <TopButton theme={this.props.theme} />
+        {/* <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }

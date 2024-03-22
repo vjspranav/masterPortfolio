@@ -324,9 +324,9 @@ const degrees = {
       alt_name: "IIIT Hyderabad",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have done courses on OS, Compilers, Distributed Systems, Software Engineering etc.",
-        "⚡ I am doing research in interoperability standards and systems for IoT in smart cities.",
-        "⚡ I was selected for Deans Merit List for two consecutive years.",
+        "⚡ Done courses on OS, Compilers, Distributed Systems, Software Engineering etc.",
+        "⚡ Researched in interoperability standards and systems for IoT in smart cities.",
+        "⚡ Selected for Deans Merit List for two consecutive years.",
       ],
       website_link: "http://iiit.ac.in",
     },

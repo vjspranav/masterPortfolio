@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
-import TopButton from "../../components/topButton/TopButton";
+// import TopButton from "../../components/topButton/TopButton";
 import GHWorkflow from "../../containers/ghworkflow/GHWorkflow";
 
 class Home extends Component {
@@ -13,7 +13,7 @@ class Home extends Component {
         <Greeting theme={this.props.theme} />
         <GHWorkflow theme={this.props.theme} />
         <Skills theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+        {/* <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }

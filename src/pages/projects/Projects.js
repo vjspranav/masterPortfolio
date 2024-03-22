@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
+// import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
   greeting,
@@ -91,7 +91,7 @@ class Projects extends Component {
           })}
         </div>
 
-        <TopButton theme={this.props.theme} />
+        {/* <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }
