@@ -140,11 +140,13 @@
 }
 
 .experience-card-logo {
-  width: 70px;
+  width: 100px;
+  aspect-ratio: 1;
+  object-fit: contain;
   -webkit-box-shadow: 4px 3px 20px -2px grey;
   -moz-box-shadow: 4px 3px 20px -2px grey;
   box-shadow: 4px 3px 20px -2px grey;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 .experience-card-title {
@@ -302,7 +304,7 @@
   }
 
   .experience-card-logo {
-    width: 100px;
+    /* width: 100px; */
   }
 
   .experience-card-heading-left {

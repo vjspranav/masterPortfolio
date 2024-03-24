@@ -366,7 +366,7 @@ const experience = {
           title: "Backend Developer Intern",
           company: "Thinkskill",
           company_url: "https://thinkskill.co.in/",
-          logo_path: "thinkskill_logo.jpeg",
+          logo_path: "thinkskill_logo-removebg.png",
           duration: "Feb 2023 - May 2023",
           location: "Work From Home",
           description:
@@ -376,7 +376,7 @@ const experience = {
           title: "Software Engineering Intern",
           company: "Virtual Labs",
           company_url: "https://vlabs.ac.in/",
-          logo_path: "vlabs_logo.jpeg",
+          logo_path: "vlabs_logo-removebg.png",
           duration: "May 2021 - July 2021",
           location: "Work From Home",
           description:
@@ -396,7 +396,7 @@ const experience = {
           duration: "Monsoon 2023",
           location: "Hyderabad, Telangana",
           description:
-            "Teaching assistant for Operating Systems, a course on operating systems and their design. I was responsible for conducting and scheduling tutorials, grading assignments, and conducting exams.",
+            "Teaching assistant for Operating Systems, a course on operating systems and their design. I was responsible for conducting and scheduling tutorials, grading assignments, and grading exams. This was a major course for the students and I guided them through the course and helped them with any doubts they had.",
           color: "#4285F4",
         },
         {
@@ -435,7 +435,7 @@ const experience = {
           title: "Research Assistant",
           company: "Vlabs",
           company_url: "https://vlabs.ac.in/",
-          logo_path: "vlabs_logo.jpeg",
+          logo_path: "vlabs_logo-removebg.png",
           duration: "Spring 2022",
           location: "Hyderabad, Telangana",
           description:
