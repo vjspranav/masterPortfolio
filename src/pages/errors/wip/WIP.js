@@ -1,12 +1,26 @@
 import React, { Component } from "react";
 import Header from "../../../components/header/Header";
-import TopButton from "../../../components/topButton/TopButton";
+// import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 export default class WIP extends Component {
   render() {
     const theme = this.props.theme;
+
+    // Styling with styled-components
+    const StyledDataSpotlight = styled.div`
+      background-color: ${(props) => props.theme.compImgHighlight};
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+
+      pre {
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+      }
+    `;
 
     // get data from url query
     const queryString = window.location.search;
@@ -40,13 +54,18 @@ export default class WIP extends Component {
         <Header theme={this.props.theme} />
         <div className="error-class">
           <Fade bottom duration={2000} distance="40px">
-            <h1>Woops</h1>
-            <h1>We are still under construction</h1>
-            <p>The requested page is unavailable at the moment!</p>
-            <p>{data ? data : "Bruh even I got no clue why"}</p>
+            <h1 className="error-title">Under Construction</h1>
+            <p className="error-subtitle">
+              This area is still a work in progress. Here's a sneak peek:
+            </p>
+
+            <StyledDataSpotlight theme={this.props.theme}>
+              <pre>{data}</pre>
+            </StyledDataSpotlight>
+
             <Link
-              className="main-button"
               to="/home"
+              className="main-button"
               style={{
                 color: theme.body,
                 backgroundColor: theme.text,
@@ -58,7 +77,7 @@ export default class WIP extends Component {
             </Link>
           </Fade>
         </div>
-        <TopButton theme={this.props.theme} />
+        {/* <TopButton theme={this.props.theme} /> */}
       </div>
     );
   }
