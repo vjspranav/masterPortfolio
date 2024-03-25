@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+#root {
+  width: 100%;
+}
+
 .basic-education {
   margin-left: 5%;
   margin-right: 5%;
