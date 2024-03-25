@@ -19,15 +19,17 @@
   margin-bottom: 5px;
 }
 
-.card-img {
+.card-img-div {
   width: 200px;
-  height: auto;
-  border-radius: 50%;
-  padding: 10px;
+  /* padding: 10px; */
   border: 1px solid #d9dbdf;
-  /* background-color: #6c63ff; */
-  /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
+  border-radius: 50%;
+}
+
+.card-img {
+  aspect-ratio: 1;
+  object-fit: contain;
 }
 
 .body-header {

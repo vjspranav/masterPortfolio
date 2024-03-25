@@ -10,12 +10,14 @@ class DegreeCard extends Component {
       <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
-            <div className="card-img">
+            <div className="card-img-div">
               <img
+                className="card-img"
                 style={{
                   maxWidth: "100%",
                   maxHeight: "100%",
                   transform: "scale(0.9)",
+                  borederRadius: "50%",
                 }}
                 src={require(`../../assests/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
