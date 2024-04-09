@@ -552,7 +552,8 @@ const publications = {
       description:
         "A paper written to explore the various oneM2M-based Interoperability Architectures for IoT in smart cities.\nAccepted in SAIP track at ICSA 2024 (International Conference on Software Architecture)",
       url:
-        "/wip?data=UGFwZXIgc3RpbGwgaW4gcHJlcHJpbnQgc3RhZ2UuIFdpbGwgYmUgcHVibGlzaGVkIHNvb24u",
+        "https://www.techrxiv.org/users/693598/articles/739724-exploratory-study-of-onem2m-based-interoperability-architectures-for-iot-a-smart-city-perspective",
+      // "/wip?data=UGFwZXIgc3RpbGwgaW4gcHJlcHJpbnQgc3RhZ2UuIFdpbGwgYmUgcHVibGlzaGVkIHNvb24u",
     },
   ],
 };
