@@ -110,8 +110,7 @@ const ActionProvider = ({
       role: "user",
       parts: [
         {
-          text: message,
-          // + " Please keep responses concise. 3 lines at max, unless detail required or explicitly mentioned. but keep them cheeky and fun.",
+          text: `${message}. Please respond in markdown format.`,
         },
       ],
     });
