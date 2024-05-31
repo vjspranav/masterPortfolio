@@ -79,6 +79,14 @@ export default class Main extends Component {
               return null;
             }}
           />
+          {/* Add a link for resume, redirect to /resume.pdf */}
+          <Route
+            path="/resume"
+            component={() => {
+              window.location.href = "/resume.pdf";
+              return null;
+            }}
+          />
           <Route
             path="*"
             render={(props) => <Error404 {...props} theme={this.props.theme} />}
