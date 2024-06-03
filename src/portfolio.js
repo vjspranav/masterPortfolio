@@ -538,11 +538,10 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name:
         "Scalable and Interoperable Distributed Architecture for IoT in Smart Cities",
-      createdAt: "NA",
+      createdAt: "30th May 2024",
       description:
         "A paper written to introduce a scalable and distributed architecture to improve the performance of the OneM2M compilant Interoperability framework for IoT in smart cities.\nAccepted at WF-IOT 2023 (IEEE World Forum on Internet of Things)",
-      url:
-        "https://www.techrxiv.org/articles/preprint/Scalable_and_Interoperable_Distributed_Architecture_for_IoT_in_Smart_Cities/24118458",
+      url: "https://ieeexplore.ieee.org/document/10539501",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
