@@ -344,21 +344,21 @@ const experience = {
   description: "All my work, internships, teaching and research roles.",
   header_image_path: "experience.svg",
   sections: [
-    // {
-    //   title: "Work",
-    //   experiences: [
-    //     {
-    //       title: "Software Development Engineer",
-    //       company: "Apple",
-    //       company_url: "https://www.apple.com/",
-    //       logo_path: "apple_logo.png",
-    //       duration: "Starting June 2024",
-    //       location: "Hyderabad, India",
-    //       description:
-    //         "I will be starting my role as a Software Development Engineer at Apple in June 2024. I will be joining the IS&T group and I am really excited to start my professional journey. More details to come as I embark on this new journey.",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Work",
+      experiences: [
+        {
+          title: "Software Development Engineer",
+          company: "Apple",
+          company_url: "https://www.apple.com/",
+          logo_path: "apple_logo.png",
+          duration: "July 2024 - Present",
+          location: "Hyderabad, India",
+          description:
+            "I am part of the Apple IS&T team specifically thr Global Business Intelligence team. I work on developing and maintaining the internal tools and services used by Apple employees worldwide.",
+        },
+      ],
+    },
     {
       title: "Internships",
       experiences: [
