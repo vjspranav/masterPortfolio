@@ -324,9 +324,9 @@ const degrees = {
       alt_name: "IIIT Hyderabad",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ Done courses on OS, Compilers, Distributed Systems, Software Engineering etc.",
-        "⚡ Researched in interoperability standards and systems for IoT in smart cities.",
-        "⚡ Selected for Deans Merit List for two consecutive years.",
+        "Done courses on OS, Compilers, Distributed Systems, Software Engineering etc.",
+        "Researched in interoperability standards and systems for IoT in smart cities.",
+        "Selected for Deans Merit List for two consecutive years.",
       ],
       website_link: "http://iiit.ac.in",
     },
@@ -547,11 +547,11 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name:
         "Exploratory Study of oneM2M-based Interoperability Architectures for IoT: A Smart City Perspective",
-      createdAt: "NA",
+      createdAt: "7th June 2024",
       description:
         "A paper written to explore the various oneM2M-based Interoperability Architectures for IoT in smart cities.\nAccepted in SAIP track at ICSA 2024 (International Conference on Software Architecture)",
       url:
-        "https://www.techrxiv.org/users/693598/articles/739724-exploratory-study-of-onem2m-based-interoperability-architectures-for-iot-a-smart-city-perspective",
+        "https://www.computer.org/csdl/proceedings-article/icsa-c/2024/662500a016/1ZABTsbaMcU",
       // "/wip?data=UGFwZXIgc3RpbGwgaW4gcHJlcHJpbnQgc3RhZ2UuIFdpbGwgYmUgcHVibGlzaGVkIHNvb24u",
     },
   ],
